@@ -100,6 +100,7 @@ const createEvents = async (
 
     events.push(event.id);
   }
+  console.log('Print statment fresh from events.factory.js');
   return events;
 };
 
